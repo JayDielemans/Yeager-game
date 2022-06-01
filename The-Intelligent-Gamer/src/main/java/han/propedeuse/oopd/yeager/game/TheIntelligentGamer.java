@@ -19,7 +19,7 @@ public class TheIntelligentGamer extends YaegerGame {
 
     @Override
     public void setupScenes() {
-    addScene(1, new TitleScene());
+    addScene(1, new TitleScene(this));
     addScene(2, new GameLevel());
     }
 }
